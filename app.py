@@ -224,6 +224,8 @@ with gr.Blocks(title="JasoosAI — Autonomous SRE Command Center") as demo:
             gr.Markdown(a)
     gr.HTML(CTA)
 
+app = demo.app
+
 if __name__ == "__main__":
     demo.launch()
 
